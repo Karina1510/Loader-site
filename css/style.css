@@ -20,7 +20,7 @@ section .loader span{
     width: 10px;
     background: #fff;
     border-radius: 50%;
-    transform: rotate(calc (var(--i) * (360 deg / 15) translateY(35px)));
+    transform: rotate(calc(var(--i) * 24deg)) translateY(35px);
     animation: animate 1.5s linear infinite;
     animation-delay:calc(var(--i) * 0.05s ) ;
    
